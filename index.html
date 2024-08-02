@@ -23,7 +23,7 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <!-- css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleuno.css">
 
   <title>Diario di Viaggio</title>
 </head>
@@ -31,7 +31,29 @@
 <body>
 
   <div id="app">
-    <h1>Diario di Viaggio</h1>
+
+    <div class="d-flex justify-content-center">
+      <h1>{{ title }}</h1>
+    </div>
+
+    <div class="my_container">
+      <div class="d-flex flex-wrap justify-content-center">
+
+        <div class="m-3" v-for="(item, index) in travel_list" :key="index">
+          <div class="card" style="width: 22rem;">
+            <img class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{item.title}}</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 
   <script src="script.js"></script>

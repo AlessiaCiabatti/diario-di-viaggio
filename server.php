@@ -5,7 +5,7 @@ $json_str = file_get_contents('viaggi.json');
 
 // da stringa la trasformo in un oggetto PHP
 $travel_list = json_decode($json_str);
-var_dump($travel_list);
+// var_dump($travel_list);
 
 
 

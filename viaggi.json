@@ -4,21 +4,35 @@
     "place": "Kos",
     "date": "31/08/2022 - 07/09/2022",
     "cover_image": "cover img",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis temporibus incidunt explicabo saepe doloribus? Temporibus consequatur ducimus recusandae, cupiditate eveniet fuga tempore! Cumque molestiae sit labore porro et iusto reiciendis?",
-    "note": "",
-    "travel_image": "",
-    "vote": "",
-    "visited": null
-  },
-  {
-    "title": "CIao",
-    "place": "Kos",
-    "date": "31/08/2022 - 07/09/2022",
-    "cover_image": "cover img",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis temporibus incidunt explicabo saepe doloribus? Temporibus consequatur ducimus recusandae, cupiditate eveniet fuga tempore! Cumque molestiae sit labore porro et iusto reiciendis?",
-    "note": "",
-    "travel_image": "",
-    "vote": "",
-    "visited": null
+    "summary": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis temporibus incidunt explicabo saepe doloribus? Temporibus consequatur ducimus recusandae, cupiditate eveniet fuga tempore! Cumque molestiae sit labore porro et iusto reiciendis?",
+    "Grecia": [
+      {
+        "day": "Giorno 1",
+        "where": "Thermal Beach",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis temporibus incidunt explicabo saepe doloribus? Temporibus consequatur ducimus recusandae, cupiditate eveniet fuga tempore! Cumque molestiae sit labore porro et iusto reiciendis?",
+        "travel_image": "",
+        "note": "",
+        "vote": "",
+        "visited": null
+      },
+      {
+        "day": "Giorno 2",
+        "where": "Asclepieion",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis temporibus incidunt explicabo saepe doloribus? Temporibus consequatur ducimus recusandae, cupiditate eveniet fuga tempore! Cumque molestiae sit labore porro et iusto reiciendis?",
+        "travel_image": "",
+        "note": "",
+        "vote": "",
+        "visited": null
+      },
+      {
+        "day": "Giorno 3",
+        "where": "Mystic-phenomenal Beach",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis temporibus incidunt explicabo saepe doloribus? Temporibus consequatur ducimus recusandae, cupiditate eveniet fuga tempore! Cumque molestiae sit labore porro et iusto reiciendis?",
+        "travel_image": "",
+        "note": "",
+        "vote": "",
+        "visited": null
+      }
+    ]
   }
 ]
