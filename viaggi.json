@@ -8,8 +8,13 @@
       {
         "day": "Giorno 1",
         "where": "Thermal Beach",
-        "description": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci, esse omnis recusandae commodi repudiandae alias, magni nihil accusamus mollitia natus aliquid placeat accusantium. Dicta illo odit, maxime enim voluptate sed, mollitia recusandae sint inventore libero minima sunt quo accusamus tempora aut impedit. Ipsa enim facilis ullam eos! Voluptatibus, quia. Libero unde consequuntur fuga fugiat at aliquid itaque obcaecati ut accusantium quas nobis ex, dolorem adipisci, ab perferendis incidunt voluptas quaerat dolor quia animi labore, optio magni omnis odio? Culpa dolorem odio dolores atque soluta asperiores iste ipsam itaque quidem officiis iusto, repellendus natus, a temporibus explicabo quos expedita illo.",
-        "travel_image": "",
+        "img_itinerary": [
+          "https://storage.arjannacms.com/meraviglioseisolegreche/images/AdobeStock_398716123_odeon_2.jpg",
+          "https://www.inviaggioconmonica.it/wp-content/uploads/2019/07/Kos-Spiaggia-Aegean-Village-In-Viaggio-Con-Monica-1024x768.jpg",
+          "https://www.costacrociere.it/content/dam/costa/costa-magazine/articles-magazine/islands/kos-island/6-kos-citt%C3%A0.jpg.image.648.487.high.jpg",
+          "https://www.go4sea.com/wp-content/uploads/destinazioni/grecia/kos/GO4SEA-GRECIA-KOS-2.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique repudiandae ipsum unde eius! Rerum sed provident impedit facere, nisi ullam commodi. Qui, adipisci quam sint possimus error impedit ipsam aspernatur ratione iure at numquam cum, repellat architecto tempore. Cum impedit non id explicabo quas rerum vel corporis labore accusamus temporibus, magni quibusdam nihil eos fugit ullam cupiditate dolores. Necessitatibus reiciendis accusamus expedita deleniti alias harum doloremque commodi delectus, dolorem, perferendis repellat cupiditate et accusantium odio asperiores quae deserunt fuga nobis ratione dolore, non quis! Sit quibusdam nesciunt aliquam porro doloribus odio alias? Iure laboriosam et molestias deleniti tempora porro quae assumenda eveniet cupiditate odit quibusdam, excepturi ullam consequatur ipsum facilis amet itaque numquam aliquid ut fugit voluptate voluptas. Consectetur rerum, debitis at iure sed itaque unde?",
         "note": "",
         "vote": "",
         "visited": null
@@ -18,7 +23,6 @@
         "day": "Giorno 2",
         "where": "Asclepieion",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Deleniti voluptatem doloribus qui, quas laudantium laborum maxime corporis deserunt, vero perspiciatis recusandae eligendi, fugit alias ab nam quo suscipit voluptatum eveniet culpa officia temporibus. Et?",
-        "travel_image": "",
         "note": "",
         "vote": "",
         "visited": null
@@ -26,8 +30,7 @@
       {
         "day": "Giorno 3",
         "where": "Mystic-phenomenal Beach",
-        "description": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci, esse omnis recusandae commodi repudiandae alias, magni nihil accusamus mollitia natus aliquid placeat accusantium. Dicta illo odit, maxime enim voluptate sed, mollitia recusandae sint inventore libero minima sunt quo accusamus tempora aut impedit. Ipsa enim facilis ullam eos! Voluptatibus, quia. Libero unde consequuntur fuga fugiat at aliquid itaque obcaecati ut accusantium quas nobis ex, dolorem adipisci, ab perferendis incidunt voluptas quaerat dolor quia animi labore, optio magni omnis odio? Culpa dolorem odio dolores atque soluta asperiores iste ipsam itaque quidem officiis iusto, repellendus natus, a temporibus explicabo quos expedita illo.",
-        "travel_image": "",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci, esse omnis recusandae commodi repudiandae alias, magni nihil accusamus mollitia natus aliquid placeat accusantium. Dicta illo odit, maxime enim voluptate sed, mollitia recusandae sint inventore libero minima sunt quo accusamus tempora aut impedit. Ipsa enim facilis ullam eos! Voluptatibus, quia. Libero unde consequuntur fuga fugiat at aliquid itaque obcaecati ut accusantium quas nobis ex, dolorem adipisci, ab perferendis incidunt voluptas quaerat dolor quia animi labore, optio magni omnis odio? Culpa dolorem odio dolores atque soluta asperiores iste ipsam itaque quidem officiis iusto, repellendus natus, a temporibus explicabo quos expedita illo.",
         "note": "",
         "vote": "",
         "visited": null

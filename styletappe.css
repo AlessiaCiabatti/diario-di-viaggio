@@ -1,0 +1,83 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: rgb(243, 237, 223);
+  color: #412e17;
+}
+
+.my_container{
+  max-width: 1700px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+h1{
+  font-size: 65px;
+}
+
+h1, h2, h3{
+  font-family: "Lobster", sans-serif;
+}
+
+h2{
+  font-size: 40px;
+}
+
+img.logo_posizione{
+  width: 70px;
+}
+
+.schotch_marrone{
+  width: 150px;
+}
+
+.description{
+  width: 800px;
+  line-height: 30px;
+}
+
+.img_top{
+  height: 340px;
+  width: 490px;
+  transform: rotate(-3deg);
+  z-index: 1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img_center{
+  height: 400px;
+  width: 280px;
+  transform: rotate(5deg);
+  background-color: blue;
+  margin-top: 100px;
+}
+
+.img_polaroid{
+  height: 340px;
+  width: 600px;
+  background-color: white;
+  position: relative;
+  z-index: 999;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.square{
+  background-color: wheat;
+  height: 310px;
+  width: 500px;
+}
+
+.img_bottom{
+  width: 800px;
+  height: 450px;
+  transform: rotate(3deg);
+}
+
+.img_top img,
+.img_center img,
+.img_polaroid img,
+.img_bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
