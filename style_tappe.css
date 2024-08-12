@@ -31,7 +31,7 @@ img.logo_posizione{
 }
 
 .description{
-  width: 800px;
+  width: 750px;
   line-height: 30px;
 }
 
@@ -57,6 +57,7 @@ img.logo_posizione{
   background-color: white;
   position: relative;
   z-index: 999;
+  transform: rotate(10deg);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -70,6 +71,7 @@ img.logo_posizione{
   width: 800px;
   height: 450px;
   transform: rotate(3deg);
+  margin-bottom: 150px;
 }
 
 .img_top img,
@@ -81,3 +83,16 @@ img.logo_posizione{
     object-fit: cover;
 }
 
+.info{
+  margin-top: 100px;
+}
+
+.btn-group>.btn:nth-child(n+3) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
