@@ -44,7 +44,7 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <!-- css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_due.css">
 
   <title>Diario di Viaggio</title>
 </head>
@@ -55,19 +55,13 @@
 
     <header class="container d-flex justify-content-between">
 
-      <div>
-        <img class="logo" src="img/logo.png" alt="">
-        <span class="mx-4">Il Diario dei Viaggi</span>
+      <div class="d-flex">
+        <img class="logo mt-3" src="img/logo.png" alt="">
+        <span class="mx-4 d-none d-md-block">Il Diario dei Viaggi</span>
       </div>
 
       <div>
         <ul class="menu d-flex">
-          <li>
-            <a href="">Destinazioni</a>
-          </li>
-          <li>
-            <a href="">Destinazioni</a>
-          </li>
           <li>
             <a href="">Destinazioni</a>
           </li>
@@ -85,26 +79,26 @@
       </div>
 
       <img class="position-absolute img_title" src="img/immagine_1.png" alt="">
-      <img class="position-absolute timbro" src="img/immagine_2.png" alt="">
+      <img class="position-absolute timbro d-none d-md-block" src="img/immagine_2.png" alt="">
 
-      <p class="position-absolute miglia">Un viaggio di mille miglia inizia con</p>
-      <p class="position-absolute passo">un solo passo</p>
+      <p class="position-absolute miglia d-none d-md-block">Un viaggio di mille miglia inizia con</p>
+      <p class="position-absolute passo d-none d-md-block">un solo passo</p>
 
-      <img class="position-absolute carta" src="img/carta.png" alt="">
+      <img class="position-absolute carta d-none d-md-block" src="img/carta.png" alt="">
       <img class="position-absolute francobolli" src="img/immagine_3.png" alt="">
       <img class="position-absolute portogallo" src="img/immagine_4.png" alt="">
       <img class="position-absolute scotch" src="img/scotch.png" alt="">
-      <img class="position-absolute scotch_due" src="img/scotch.png" alt="">
-      <img class="position-absolute puntina puntina_due" src="img/puntina.png" alt="">
-      <img class="position-absolute puntina puntina_tre" src="img/puntina.png" alt="">
-      <img class="position-absolute puntina puntina_quattro" src="img/puntina.png" alt="">
+      <img class="position-absolute scotch_due d-none d-lg-block" src="img/scotch.png" alt="">
+      <img class="position-absolute puntina puntina_due d-none d-md-block" src="img/puntina.png" alt="">
+      <img class="position-absolute puntina puntina_tre d-none d-md-block" src="img/puntina.png" alt="">
+      <img class="position-absolute puntina puntina_quattro d-none d-md-block" src="img/puntina.png" alt="">
       <img class="big_img" src="img/cartina_ombra.png" alt="">
     </div>
 
 
     <main>
-      <div class="mt-5 d-flex flex-column align-items-center">
-        <h1 class="mb-4">Il <span class="diario">Diario</span> dei viaggi</h1>
+      <div class="d-flex flex-column align-items-center">
+        <h1 class="mb-4 text-center">Il <span class="diario">Diario</span> dei viaggi</h1>
         <h4 class="mb-4">I miei itinerari</h4>
         <!-- <img class="logo" src="img/logo.png" alt=""> -->
       </div>

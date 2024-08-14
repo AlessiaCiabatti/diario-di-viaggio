@@ -44,7 +44,7 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <!-- css -->
-  <link rel="stylesheet" href="style_tappe.css">
+  <link rel="stylesheet" href="styletappe.css">
 
   <title>Diario di Viaggio</title>
 </head>
@@ -61,7 +61,7 @@
 
       <div class="m-3" v-for="(item, index) in travel_list" :key="index">
         <!-- ciclo sulle tappe di ogni viaggio -->
-        <div v-for="(tappa, tIndex) in item.tappe" :key="tIndex">
+        <div class="pagina" v-for="(tappa, tIndex) in item.tappe" :key="tIndex">
 
           <div class="d-flex justify-content-end">
             <div>
@@ -81,35 +81,63 @@
 
           <div class="d-flex justify-content-between mt-5">
 
-            <div>
-              <h3 class="mt-3 mb-5">Descrizione</h3>
-              <p class="description text-center">{{tappa.description}}</p>
+            <div class="d-flex flex-column">
 
+              <div class="flex-grow-1">
+                <h3 class="mt-3 mb-5">Descrizione</h3>
+                <p class="description text-center">{{tappa.description}}</p>
+              </div>
 
-              <div class="d-flex justify-content-between info">
-                <div>
-                  <div class="d-flex">
-                    <h3 class="d-flex align-items-center">Ho già visitato questo luogo?</h3>
-                    <div class="btn-group ms-5" role="group" aria-label="Basic radio toggle button group">
-                      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                      <label class="d-flex flex-column align-items-center btn" for="btnradio1">SI! <img
-                          src="img/happy.png" width="100px" alt=""></label>
+              <div class="d-flex flex-grow-1 align-items-center">
+                <h3 class="d-flex align-items-center">Ho già visitato questo luogo?</h3>
+                <div class="btn-group ms-5" role="group" aria-label="Basic radio toggle button group">
+                  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                  <label class="d-flex flex-column align-items-center btn" for="btnradio1">SI! <img src="img/happy.png"
+                      width="100px" alt=""></label>
 
-                      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                      <label class="d-flex flex-column align-items-center btn" for="btnradio2">ANCORA NO! <img
-                          src="img/sad.png" width="80px" alt=""></label>
-                    </div>
-                  </div>
-                  <div>
-                    vote
-                  </div>
-                  <div>
-                    note
-                  </div>
+                  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                  <label class="d-flex flex-column align-items-center btn" for="btnradio2">ANCORA NO! <img
+                      src="img/sad.png" width="80px" alt=""></label>
                 </div>
               </div>
 
+              <div class="my_star flex-grow-1">
+                <h3>Voto</h3>
+                <p>
+                <div class="rating">
+                  <span class="stars-container" score="5" id="223">
+                    <span id="star5" star-score="5" class="fa star"></span>
+                    <span id="star4" star-score="4" class="fa star"></span>
+                    <span id="star3" star-score="3" class="fa star"></span>
+                    <span id="star2" star-score="2" class="fa star"></span>
+                    <span id="star1" star-score="1" class="fa star"></span>
+                  </span>
+                </div>
+
+                <div class="rating">
+                  <span class="stars-container" score="0" id="221">
+                    <span id="star5" class="fa star"></span>
+                    <span id="star4" class="fa star"></span>
+                    <span id="star3" class="fa star"></span>
+                    <span id="star2" class="fa star"></span>
+                    <span id="star1" class="fa star"></span>
+                  </span>
+                </div>
+                </p>
+              </div>
+
+              <div class="flex-grow-1">
+                <div class="d-flex align-items-center">
+                    <h3>Note</h3>
+                    <div class="note-container">
+                        <p>{{tappa.note}}</p>
+                    </div>
+                </div>
             </div>
+            
+
+            </div>
+
 
             <div>
               <div class="d-flex">
@@ -122,7 +150,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div v-for="(img, imgIndex) in tappa.img_itinerary" :key="imgIndex" class="d-flex flex-column">
                 <div class="img_polaroid d-flex align-items-center ps-3" v-if="imgIndex === 2">
                   <div class="square">

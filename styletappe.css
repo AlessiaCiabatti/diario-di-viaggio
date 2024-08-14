@@ -10,6 +10,10 @@ body {
   /* background-color: red; */
 }
 
+.pagina{
+  margin-bottom: 200px;
+}
+
 h1{
   font-size: 65px;
 }
@@ -83,9 +87,10 @@ img.logo_posizione{
     object-fit: cover;
 }
 
-.info{
-  margin-top: 100px;
-}
+/* .info{
+  margin-top: 50px;
+  height: 100%;
+} */
 
 .btn-group>.btn:nth-child(n+3) {
   border-top-left-radius: 5px;
@@ -96,3 +101,59 @@ img.logo_posizione{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.my_star{
+  margin-top: 50px;
+}
+
+.note-container {
+  background-image: url('img/note.png');
+  background-size: cover;
+  width: 700px;
+  height: 500px;
+}
+
+.note-container p {
+  margin-top: 182px;
+  text-align: center;
+  padding: 65px;
+  padding-top: 5px;
+  line-height: 45px;
+}
+
+
+    /* set all stars to 'empty star' */
+    .stars-container {
+      display: inline-block;
+      vertical-align: top;
+  }
+  /* set all stars to 'empty star' */
+  .stars-container .star {
+      float: right;
+      display: inline-block;
+      padding: 2px;
+      color: orange;
+      cursor: pointer;
+    font-size:30px;
+  }
+  .stars-container .star:before {
+      content:"\f006";
+      /* fontAwesome empty star code */
+  }
+  /* set hovered/selected star to 'filled star' */
+  .star:hover:before, .star.selected:before {
+      content:"\f005";
+      /* fontAwesome filled star code */
+  }
+  /* set all stars after hovered/selected to'filled star' 
+  ** it will appear that it selects all after due to positioning */
+  .star:hover ~ .star:before, .star.selected ~ .star:before {
+      content:"\f005";
+      /* fontAwesome filled star code */
+  }
+  .reviews {
+      vertical-align: top;
+  }
+  button {
+      margin-top: 20px;
+  }
