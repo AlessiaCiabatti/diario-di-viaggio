@@ -1,0 +1,170 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: rgb(243, 237, 223);
+  color: #412e17;
+}
+
+.my_container {
+  max-width: 1700px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.pagina {
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lobster", sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+img.logo_posizione {
+  width: 70px;
+}
+
+.schotch_marrone {
+  width: 150px;
+}
+
+.description {
+  width: 750px;
+  line-height: 30px;
+}
+
+.img_top {
+  height: 340px;
+  width: 490px;
+  transform: rotate(-3deg);
+  z-index: 1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img_center {
+  height: 400px;
+  width: 280px;
+  transform: rotate(5deg);
+  background-color: blue;
+  margin-top: 100px;
+}
+
+.img_polaroid {
+  height: 340px;
+  width: 600px;
+  background-color: white;
+  position: relative;
+  z-index: 999;
+  transform: rotate(10deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.square {
+  background-color: wheat;
+  height: 310px;
+  width: 500px;
+}
+
+.img_bottom {
+  width: 800px;
+  height: 450px;
+  transform: rotate(3deg);
+  margin-bottom: 150px;
+}
+
+.img_top img,
+.img_center img,
+.img_polaroid img,
+.img_bottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .info{
+  margin-top: 50px;
+  height: 100%;
+} */
+
+.btn-group>.btn:nth-child(n+3) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.my_star {
+  margin-top: 50px;
+}
+
+/* set all stars to 'empty star' */
+.stars-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* set all stars to 'empty star' */
+.stars-container .star {
+  float: right;
+  display: inline-block;
+  padding: 2px;
+  color: orange;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.stars-container .star:before {
+  content: "\f006";
+  /* fontAwesome empty star code */
+}
+
+/* set hovered/selected star to 'filled star' */
+.star:hover:before,
+.star.selected:before {
+  content: "\f005";
+  /* fontAwesome filled star code */
+}
+
+/* set all stars after hovered/selected to'filled star' 
+  ** it will appear that it selects all after due to positioning */
+.star:hover~.star:before,
+.star.selected~.star:before {
+  content: "\f005";
+  /* fontAwesome filled star code */
+}
+
+.reviews {
+  vertical-align: top;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.note-container {
+  background-image: url('img/note_due.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 650px
+}
+
+.note-container p {
+  margin-top: 137px;
+  text-align: center;
+  padding-left: 95px;
+  padding-right: 115px;
+  padding-top: 5px;
+  line-height: 28px;
+}
