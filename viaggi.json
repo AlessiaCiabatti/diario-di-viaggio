@@ -1,53 +1,53 @@
 [
-  {
-    "title": "Grecia",
-    "place": "Kos",
-    "date": "31/08/2022 - 07/09/2022",
-    "cover_image": "https://elilovestravelling.com/wp-content/uploads/2023/06/Kos-con-bambini.jpg",
-    "tappe": [
-      {
-        "day": "Giorno 1",
-        "where": "Thermal Beach",
-        "maps": "https://www.google.it/maps/place/Therma+Beach/@36.8445236,27.3060689,15z/data=!3m1!4b1!4m6!3m5!1s0x14be057e44475f43:0x328992a1ffd664dd!8m2!3d36.8445246!4d27.3163686!16s%2Fg%2F11b5wl2skr?entry=ttu",
-        "img_itinerary": [
-          "https://www.grecia.info/wp-content/uploads/sites/71/kos.jpg",
-          "https://www.inviaggioconmonica.it/wp-content/uploads/2019/07/Kos-Spiaggia-Aegean-Village-In-Viaggio-Con-Monica-1024x768.jpg",
-          "https://www.costacrociere.it/content/dam/costa/costa-magazine/articles-magazine/islands/kos-island/6-kos-citt%C3%A0.jpg.image.648.487.high.jpg",
-          "https://www.go4sea.com/wp-content/uploads/destinazioni/grecia/kos/GO4SEA-GRECIA-KOS-2.jpg"
-        ],
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique repudiandae ipsum unde eius! Rerum sed provident impedit facere, nisi ullam commodi. Qui, adipisci quam sint possimus error impedit ipsam aspernatur ratione iure at numquam cum, repellat architecto tempore. Cum impedit non id explicabo quas rerum vel corporis labore accusamus temporibus, magni quibusdam nihil eos fugit ullam cupiditate dolores. Necessitatibus reiciendis accusamus expedita deleniti alias harum doloremque commodi delectus, dolorem, perferendis repellat cupiditate et accusantium odio asperiores quae deserunt fuga nobis ratione dolore, non quis! Sit quibusdam nesciunt aliquam porro doloribus odio alias? Iure laboriosam et molestias deleniti tempora porro quae assumenda eveniet cupiditate odit quibusdam, excepturi ullam consequatur ipsum facilis amet itaque numquam aliquid ut fugit voluptate voluptas. Consectetur rerum, debitis at iure sed itaque unde?",
-        "note": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. ",
-        "vote": "",
-        "visited": null
-      },
-      {
-        "day": "Giorno 2",
-        "where": "Asclepieion",
-        "img_itinerary": [
-          "http://www.my-favourite-planet.de/images/middle-east/turkey/pergamon/pergamon_dj-10092012-2-0632p_theatre.jpg",
-          "https://static.kos4all.com/wp-content/uploads/2014/02/Asclepeion-Kos-004.jpg",
-          "http://www.my-favourite-planet.de/images/middle-east/turkey/pergamon/pergamon_dj-10092012-2-0039p_asklepion.jpg",
-          "https://www.ostia-antica.org/kos/asklep-p/kos-34.jpg"
-        ],
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Deleniti voluptatem doloribus qui, quas laudantium laborum maxime corporis deserunt, vero perspiciatis recusandae eligendi, fugit alias ab nam quo suscipit voluptatum eveniet culpa officia temporibus. Et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Deleniti voluptatem doloribus qui, quas laudantium laborum maxime corporis deserunt, vero perspiciatis recusandae eligendi, fugit alias ab nam quo suscipit voluptatum eveniet culpa officia temporibus. Et?",
-        "note": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        "vote": "",
-        "visited": null
-      },
-      {
-        "day": "Giorno 3",
-        "where": "Mystic-phenomenal Beach",
-        "img_itinerary": [
-          "https://lh5.googleusercontent.com/p/AF1QipPF1NwEDFwEfbK7wtC0RqduWZvs6Q2mkSCRqHMv=s1600",
-          "https://lh5.googleusercontent.com/p/AF1QipPGxDGT9f8eOkRGKHTe06hPImzqe6aLl84y0pYI=s1600",
-          "https://lh5.googleusercontent.com/p/AF1QipNIur9vuOQOIyYm34vV3xxoPI43sxUg-_zsLtfn=s1600",
-          "https://www.schon-wieder-weg.de/wp-content/uploads/2021/08/Kos-griechenland-1035.jpg"
-        ],
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci, esse omnis recusandae commodi repudiandae alias, magni nihil accusamus mollitia natus aliquid placeat accusantium. Dicta illo odit, maxime enim voluptate sed, mollitia recusandae sint inventore libero minima sunt quo accusamus tempora aut impedit. Ipsa enim facilis ullam eos! Voluptatibus, quia. Libero unde consequuntur fuga fugiat at aliquid itaque obcaecati ut accusantium quas nobis ex, dolorem adipisci, ab perferendis incidunt voluptas quaerat dolor quia animi labore, optio magni omnis odio? Culpa dolorem odio dolores atque soluta asperiores iste ipsam itaque quidem officiis iusto, repellendus natus, a temporibus explicabo quos expedita illo.",
-        "note": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique repudiandae ipsum unde eius!",
-        "vote": "",
-        "visited": null
-      }
-    ]
-  }
+    {
+        "title": "Grecia",
+        "place": "Kos",
+        "date": "31\/08\/2022 - 07\/09\/2022",
+        "cover_image": "https:\/\/elilovestravelling.com\/wp-content\/uploads\/2023\/06\/Kos-con-bambini.jpg",
+        "tappe": [
+            {
+                "day": "Giorno 1",
+                "where": "Thermal Beach",
+                "maps": "https:\/\/www.google.it\/maps\/place\/Therma+Beach\/@36.8445236,27.3060689,15z\/data=!3m1!4b1!4m6!3m5!1s0x14be057e44475f43:0x328992a1ffd664dd!8m2!3d36.8445246!4d27.3163686!16s%2Fg%2F11b5wl2skr?entry=ttu",
+                "img_itinerary": [
+                    "https:\/\/www.grecia.info\/wp-content\/uploads\/sites\/71\/kos.jpg",
+                    "https:\/\/www.inviaggioconmonica.it\/wp-content\/uploads\/2019\/07\/Kos-Spiaggia-Aegean-Village-In-Viaggio-Con-Monica-1024x768.jpg",
+                    "https:\/\/www.costacrociere.it\/content\/dam\/costa\/costa-magazine\/articles-magazine\/islands\/kos-island\/6-kos-citt%C3%A0.jpg.image.648.487.high.jpg",
+                    "https:\/\/www.go4sea.com\/wp-content\/uploads\/destinazioni\/grecia\/kos\/GO4SEA-GRECIA-KOS-2.jpg"
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique repudiandae ipsum unde eius! Rerum sed provident impedit facere, nisi ullam commodi. Qui, adipisci quam sint possimus error impedit ipsam aspernatur ratione iure at numquam cum, repellat architecto tempore. Cum impedit non id explicabo quas rerum vel corporis labore accusamus temporibus, magni quibusdam nihil eos fugit ullam cupiditate dolores. Necessitatibus reiciendis accusamus expedita deleniti alias harum doloremque commodi delectus, dolorem, perferendis repellat cupiditate et accusantium odio asperiores quae deserunt fuga nobis ratione dolore, non quis! Sit quibusdam nesciunt aliquam porro doloribus odio alias? Iure laboriosam et molestias deleniti tempora porro quae assumenda eveniet cupiditate odit quibusdam, excepturi ullam consequatur ipsum facilis amet itaque numquam aliquid ut fugit voluptate voluptas. Consectetur rerum, debitis at iure sed itaque unde?",
+                "note": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. ",
+                "vote": "",
+                "visited": null
+            },
+            {
+                "day": "Giorno 2",
+                "where": "Asclepieion",
+                "img_itinerary": [
+                    "http:\/\/www.my-favourite-planet.de\/images\/middle-east\/turkey\/pergamon\/pergamon_dj-10092012-2-0632p_theatre.jpg",
+                    "https:\/\/static.kos4all.com\/wp-content\/uploads\/2014\/02\/Asclepeion-Kos-004.jpg",
+                    "http:\/\/www.my-favourite-planet.de\/images\/middle-east\/turkey\/pergamon\/pergamon_dj-10092012-2-0039p_asklepion.jpg",
+                    "https:\/\/www.ostia-antica.org\/kos\/asklep-p\/kos-34.jpg"
+                ],
+                "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Deleniti voluptatem doloribus qui, quas laudantium laborum maxime corporis deserunt, vero perspiciatis recusandae eligendi, fugit alias ab nam quo suscipit voluptatum eveniet culpa officia temporibus. Et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Deleniti voluptatem doloribus qui, quas laudantium laborum maxime corporis deserunt, vero perspiciatis recusandae eligendi, fugit alias ab nam quo suscipit voluptatum eveniet culpa officia temporibus. Et?",
+                "note": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+                "vote": "",
+                "visited": null
+            },
+            {
+                "day": "Giorno 3",
+                "where": "Mystic-phenomenal Beach",
+                "img_itinerary": [
+                    "https:\/\/lh5.googleusercontent.com\/p\/AF1QipPF1NwEDFwEfbK7wtC0RqduWZvs6Q2mkSCRqHMv=s1600",
+                    "https:\/\/lh5.googleusercontent.com\/p\/AF1QipPGxDGT9f8eOkRGKHTe06hPImzqe6aLl84y0pYI=s1600",
+                    "https:\/\/lh5.googleusercontent.com\/p\/AF1QipNIur9vuOQOIyYm34vV3xxoPI43sxUg-_zsLtfn=s1600",
+                    "https:\/\/www.schon-wieder-weg.de\/wp-content\/uploads\/2021\/08\/Kos-griechenland-1035.jpg"
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci, esse omnis recusandae commodi repudiandae alias, magni nihil accusamus mollitia natus aliquid placeat accusantium. Dicta illo odit, maxime enim voluptate sed, mollitia recusandae sint inventore libero minima sunt quo accusamus tempora aut impedit. Ipsa enim facilis ullam eos! Voluptatibus, quia. Libero unde consequuntur fuga fugiat at aliquid itaque obcaecati ut accusantium quas nobis ex, dolorem adipisci, ab perferendis incidunt voluptas quaerat dolor quia animi labore, optio magni omnis odio? Culpa dolorem odio dolores atque soluta asperiores iste ipsam itaque quidem officiis iusto, repellendus natus, a temporibus explicabo quos expedita illo.",
+                "note": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique repudiandae ipsum unde eius!",
+                "vote": "",
+                "visited": null
+            }
+        ]
+    }
 ]

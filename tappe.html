@@ -102,39 +102,27 @@
               </div>
 
               <div class="my_star flex-grow-1">
-                <h3>Voto</h3>
-                <p>
-                <div class="rating">
-                  <span class="stars-container" score="5" id="223">
-                    <span id="star5" star-score="5" class="fa star"></span>
-                    <span id="star4" star-score="4" class="fa star"></span>
-                    <span id="star3" star-score="3" class="fa star"></span>
-                    <span id="star2" star-score="2" class="fa star"></span>
-                    <span id="star1" star-score="1" class="fa star"></span>
-                  </span>
+                <div class="d-flex">
+                  <h3>Dai un voto a questa tappa:</h3>
+                  <p>{{tappa.vote}}</p>
                 </div>
+                <input type="text" placeholder="vote" v-model.trim="tappa.new_vote">
+              </div>
 
-                <div class="rating">
-                  <span class="stars-container" score="0" id="221">
-                    <span id="star5" class="fa star"></span>
-                    <span id="star4" class="fa star"></span>
-                    <span id="star3" class="fa star"></span>
-                    <span id="star2" class="fa star"></span>
-                    <span id="star1" class="fa star"></span>
-                  </span>
-                </div>
-                </p>
+              <div>
+                <button @click.stop="addNewVote(item.title, tappa.day, tappa.new_vote)">
+                  Add
+                </button>
               </div>
 
               <div class="flex-grow-1">
                 <div class="d-flex align-items-center">
-                    <!-- <h3>Note</h3> -->
-                    <div class="note-container">
-                        <p>{{tappa.note}}</p>
-                    </div>
+                  <!-- <h3>Note</h3> -->
+                  <div class="note-container">
+                    <p>{{tappa.note}}</p>
+                  </div>
                 </div>
-            </div>
-            
+              </div>
 
             </div>
 

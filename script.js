@@ -20,6 +20,21 @@ createApp({
       })
     },
 
+    addNewVote(title, day, vote){
+
+      console.log(title, day, vote);
+      const data = new FormData();
+
+      data.append('title', title);
+      data.append('day', day);
+      data.append('vote', vote);
+
+      axios.post(this.apiUrl, data)
+      .then(result =>{
+        this.travel_list = result.data;
+      })
+    },
+
     getApiTappe(){
       axios.get(this.apiUrl)
       .then(result => {
