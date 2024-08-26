@@ -110,12 +110,12 @@
               </div>
 
               <div class="my_star flex-grow-1 mt-5">
-                
+
                 <div class="d-flex">
                   <h3>Dai un voto a questa tappa:</h3>
                   <h3 class="tappa_voto">{{tappa.vote}}</h3>
                 </div>
-                <input type="text" placeholder="Voto" v-model.trim="tappa.new_vote">
+                <input type="text" placeholder="Voto da 1 a 5" v-model.trim="tappa.new_vote">
 
                 <a @click.stop="addNewVote(item.title, tappa.day, tappa.new_vote)" href="tappe.html" class="cta">
                   <span>Conferma</span>

@@ -17,9 +17,9 @@
                 ],
                 "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique repudiandae ipsum unde eius! Rerum sed provident impedit facere, nisi ullam commodi. Qui, adipisci quam sint possimus error impedit ipsam aspernatur ratione iure at numquam cum, repellat architecto tempore. Cum impedit non id explicabo quas rerum vel corporis labore accusamus temporibus, magni quibusdam nihil eos fugit ullam cupiditate dolores. Necessitatibus reiciendis accusamus expedita deleniti alias harum doloremque commodi delectus, dolorem, perferendis repellat cupiditate et accusantium odio asperiores quae deserunt fuga nobis ratione dolore, non quis! Sit quibusdam nesciunt aliquam porro doloribus odio alias? Iure laboriosam et molestias deleniti tempora porro quae assumenda eveniet cupiditate odit quibusdam, excepturi ullam consequatur ipsum facilis amet itaque numquam aliquid ut fugit voluptate voluptas. Consectetur rerum, debitis at iure sed itaque unde?",
                 "note": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. ",
-                "vote": "5",
+                "vote": "0",
                 "location": "https:\/\/www.google.it\/maps\/place\/Therma+Beach\/@36.8445236,27.3060689,15z\/data=!3m1!4b1!4m6!3m5!1s0x14be057e44475f43:0x328992a1ffd664dd!8m2!3d36.8445246!4d27.3163686!16s%2Fg%2F11b5wl2skr?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
-                "visited": true
+                "visited": false
             },
             {
                 "day": "Giorno 2",
@@ -32,8 +32,8 @@
                 ],
                 "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Deleniti voluptatem doloribus qui, quas laudantium laborum maxime corporis deserunt, vero perspiciatis recusandae eligendi, fugit alias ab nam quo suscipit voluptatum eveniet culpa officia temporibus. Et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Deleniti voluptatem doloribus qui, quas laudantium laborum maxime corporis deserunt, vero perspiciatis recusandae eligendi, fugit alias ab nam quo suscipit voluptatum eveniet culpa officia temporibus. Et?",
                 "note": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-                "vote": "",
-                "visited": false
+                "vote": "4",
+                "visited": true
             },
             {
                 "day": "Giorno 3",
@@ -46,8 +46,8 @@
                 ],
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci, esse omnis recusandae commodi repudiandae alias, magni nihil accusamus mollitia natus aliquid placeat accusantium. Dicta illo odit, maxime enim voluptate sed, mollitia recusandae sint inventore libero minima sunt quo accusamus tempora aut impedit. Ipsa enim facilis ullam eos! Voluptatibus, quia. Libero unde consequuntur fuga fugiat at aliquid itaque obcaecati ut accusantium quas nobis ex, dolorem adipisci, ab perferendis incidunt voluptas quaerat dolor quia animi labore, optio magni omnis odio? Culpa dolorem odio dolores atque soluta asperiores iste ipsam itaque quidem officiis iusto, repellendus natus, a temporibus explicabo quos expedita illo.",
                 "note": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique!",
-                "vote": "3",
-                "visited": false
+                "vote": "5",
+                "visited": true
             }
         ]
     }
