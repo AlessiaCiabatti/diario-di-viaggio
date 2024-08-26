@@ -21,7 +21,7 @@ createApp({
     },
 
     addNewVote(title, day, vote){
-
+      
       console.log(title, day, vote);
       const data = new FormData();
 
@@ -32,6 +32,23 @@ createApp({
       axios.post(this.apiUrl, data)
       .then(result =>{
         this.travel_list = result.data;
+        location.reload();
+      })
+    },
+
+    updateVisited(title, day, visited){
+
+      console.log(title, day, visited);
+      const data = new FormData();
+
+      data.append('title', title);
+      data.append('day', day);
+      data.append('visited', visited);
+
+      axios.post(this.apiUrl, data)
+      .then(result =>{
+        this.travel_list = result.data;
+        location.reload();
       })
     },
 
@@ -50,16 +67,9 @@ createApp({
     }
   },
 
-  computed: {
-    filteredTravelList() {
-      // Filtra la lista per mostrare solo l'elemento corrispondente
-      // console.log(travel_list)
-    }
-  },
 
   mounted(){
     this.getApi();
-    // this.getApiTappe();
   }
 
 }).mount('#app')

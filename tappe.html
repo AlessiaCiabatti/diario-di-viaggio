@@ -44,7 +44,7 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <!-- css -->
-  <link rel="stylesheet" href="style_tappe.css">
+  <link rel="stylesheet" href="style-tappe.css">
 
   <title>Diario di Viaggio</title>
 </head>
@@ -71,7 +71,7 @@
 
           <div class="d-flex justify-content-between">
             <div>
-              <img class="mx-3 logo_posizione" src="img/logo.png" alt="">
+              <a :href="tappa.location" target="_blank"><img class="mx-3 logo_posizione" src="img/logo.png" alt=""></a>
             </div>
             <div>
               <h3 class="mt-3">{{tappa.where}}</h3>
@@ -90,29 +90,37 @@
 
               <div class="d-flex flex-grow-1 align-items-center">
                 <h3 class="d-flex align-items-center">Ho già visitato questo luogo?</h3>
-                <div class="btn-group ms-5" role="group" aria-label="Basic radio toggle button group">
-                  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                  <label class="d-flex flex-column align-items-center btn" for="btnradio1">SI! <img src="img/happy.png"
-                      width="100px" alt=""></label>
 
-                  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                  <label class="d-flex flex-column align-items-center btn" for="btnradio2">ANCORA NO! <img
+
+                <div class="btn-group ms-5" role="group" aria-label="Basic radio toggle button group">
+                  <input type="radio" class="btn-check" name="btnradio" :id="'btnradio1-' + tIndex" autocomplete="off"
+                    v-model="tappa.visited" @change="updateVisited(item.title, tappa.day, true)">
+                  <label class="d-flex flex-column align-items-center btn"
+                    :class="{'selected-button': tappa.visited === true}" :for="'btnradio1-' + tIndex">SI! <img
+                      src="img/happy.png" width="100px" alt=""></label>
+
+                  <input type="radio" class="btn-check" name="btnradio" :id="'btnradio2-' + tIndex" autocomplete="off"
+                    v-model="tappa.visited" @change="updateVisited(item.title, tappa.day, false)">
+                  <label class="d-flex flex-column align-items-center btn"
+                    :class="{'selected-button': tappa.visited === false}" :for="'btnradio2-' + tIndex">ANCORA NO! <img
                       src="img/sad.png" width="80px" alt=""></label>
                 </div>
+
+
               </div>
 
-              <div class="my_star flex-grow-1">
+              <div class="my_star flex-grow-1 mt-5">
+                
                 <div class="d-flex">
                   <h3>Dai un voto a questa tappa:</h3>
-                  <p>{{tappa.vote}}</p>
+                  <h3 class="tappa_voto">{{tappa.vote}}</h3>
                 </div>
-                <input type="text" placeholder="vote" v-model.trim="tappa.new_vote">
-              </div>
+                <input type="text" placeholder="Voto" v-model.trim="tappa.new_vote">
 
-              <div>
-                <button @click.stop="addNewVote(item.title, tappa.day, tappa.new_vote)">
-                  Add
-                </button>
+                <a @click.stop="addNewVote(item.title, tappa.day, tappa.new_vote)" href="tappe.html" class="cta">
+                  <span>Conferma</span>
+                </a>
+
               </div>
 
               <div class="flex-grow-1">
