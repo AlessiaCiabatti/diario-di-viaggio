@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
     rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,7 +92,7 @@
                 <h3 class="d-flex align-items-center">Ho già visitato questo luogo?</h3>
 
 
-                <div class="btn-group ms-5" role="group" aria-label="Basic radio toggle button group">
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                   <input type="radio" class="btn-check" name="btnradio" :id="'btnradio1-' + tIndex" autocomplete="off"
                     v-model="tappa.visited" @change="updateVisited(item.title, tappa.day, true)">
                   <label class="d-flex flex-column align-items-center btn"
@@ -125,7 +125,6 @@
 
               <div class="flex-grow-1">
                 <div class="d-flex align-items-center">
-                  <!-- <h3>Note</h3> -->
                   <div class="note-container">
                     <p>{{tappa.note}}</p>
                   </div>
@@ -134,15 +133,14 @@
 
             </div>
 
-
             <div>
               <div class="d-flex">
                 <div v-for="(img, imgIndex) in tappa.img_itinerary" :key="imgIndex">
                   <div class="bg-light img_top" v-if="imgIndex === 0">
-                    <img :src="img" alt="Image 1" />
+                    <img :src="img" alt="Immagine 1" />
                   </div>
                   <div class="img_center" v-if="imgIndex === 1">
-                    <img :src="img" alt="Image 2" />
+                    <img :src="img" alt="Immagine 2" />
                   </div>
                 </div>
               </div>
@@ -150,11 +148,11 @@
               <div v-for="(img, imgIndex) in tappa.img_itinerary" :key="imgIndex" class="d-flex flex-column">
                 <div class="img_polaroid d-flex align-items-center ps-3" v-if="imgIndex === 2">
                   <div class="square">
-                    <img :src="img" alt="Image 3" />
+                    <img :src="img" alt="Immagine 3" />
                   </div>
                 </div>
                 <div class="bg-danger img_bottom" v-if="imgIndex === 3">
-                  <img :src="img" alt="Image 4" />
+                  <img :src="img" alt="Immagine 4" />
                 </div>
               </div>
             </div>

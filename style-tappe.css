@@ -89,6 +89,10 @@ img.logo_posizione {
   object-fit: cover;
 }
 
+.btn-group {
+  margin-left: 3rem;
+}
+
 .note-container {
   background-image: url('img/note_due.png');
   background-size: contain;
@@ -111,7 +115,7 @@ img.logo_posizione {
   border-radius: 8px;
 }
 
-.tappa_voto{
+.tappa_voto {
   /* border-bottom: #412e17 1px solid; */
   width: auto;
   margin-left: 100px;
@@ -119,7 +123,7 @@ img.logo_posizione {
 }
 
 /* input */
-input{
+input {
   border: none;
   border-bottom: #412e17 1px solid;
   height: 50px;
@@ -175,3 +179,60 @@ a {
   transform: scale(.96);
 }
 
+@media (max-width: 1280px) {
+
+  .description {
+    width: 600px;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+
+  .img_top {
+    height: 340px;
+    width: 390px;
+    transform: rotate(-3deg);
+    z-index: 1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .img_center {
+    height: 360px;
+    width: 220px;
+    transform: rotate(5deg);
+    background-color: blue;
+    margin-top: 100px;
+  }
+
+  .img_polaroid {
+    height: 300px;
+    width: 560px;
+    background-color: white;
+    position: relative;
+    z-index: 999;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .square {
+    background-color: wheat;
+    height: 270px;
+    width: 460px;
+  }
+
+  .img_bottom {
+    width: 600px;
+    height: 350px;
+    transform: rotate(3deg);
+    margin-bottom: 150px;
+  }
+
+  .my_star.flex-grow-1.mt-5 {
+    margin-bottom: 30px;
+  }
+
+  .btn-group {
+    margin-left: 1rem;
+  }
+
+
+}
