@@ -182,7 +182,7 @@ a {
 @media (max-width: 1500px) {
 
   .description {
-    width: 700px;
+    width: 600px;
     line-height: 30px;
     margin-bottom: 50px;
   }
@@ -234,5 +234,132 @@ a {
     margin-left: 1rem;
   }
 
+}
 
+@media (max-width: 1024px) {
+
+  .description {
+    width: 700px;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+
+  .d-flex.flex-grow-1.align-items-center,
+  .voto,
+  .input_voto {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input_voto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /*conferma btn*/
+  .cta {
+    margin: 0 auto;
+  }
+
+  .pagina .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .note-container {
+    background-image: url('img/note_due.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .my_container.d-flex.justify-content-between.align-items-center {
+    flex-direction: column-reverse;
+  }
+
+  /* Descrizione */
+  .description {
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  .d-flex.flex-grow-1.align-items-center,
+  .voto,
+  .input_voto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  /* Input */
+  .input_voto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .tappa_voto {
+    margin-left: 0px;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  /* btn conferma*/
+  .cta {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .pagina .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .note-container {
+    background-image: url('img/note_due.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .pagina .d-flex {
+    align-items: center;
+  }
+
+  .img_top,
+  .img_center,
+  .img_polaroid,
+  .img_bottom {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img_polaroid {
+    /* height: 280px; */
+    width: 525px;
+    background-color: white;
+    position: relative;
+    z-index: 999;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
 }
