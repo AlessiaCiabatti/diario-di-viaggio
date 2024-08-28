@@ -17,9 +17,9 @@
                 ],
                 "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae reprehenderit aliquid enim natus tempora nulla, dolores dolor sed laborum earum non sunt cumque totam vitae accusantium doloribus maiores reiciendis nisi eum sequi similique repudiandae ipsum unde eius! Rerum sed provident impedit facere, nisi ullam commodi. Qui, adipisci quam sint possimus error impedit ipsam aspernatur ratione iure at numquam cum, repellat architecto tempore. Cum impedit non id explicabo quas rerum vel corporis labore accusamus temporibus, magni quibusdam nihil eos fugit ullam cupiditate dolores. Necessitatibus reiciendis accusamus expedita deleniti alias harum doloremque commodi delectus, dolorem, perferendis repellat cupiditate et accusantium odio asperiores quae deserunt fuga nobis ratione dolore, non quis! Sit quibusdam nesciunt aliquam porro doloribus odio alias? Iure laboriosam et molestias deleniti tempora porro quae assumenda eveniet cupiditate odit quibusdam, excepturi ullam consequatur ipsum facilis amet itaque numquam aliquid ut fugit voluptate voluptas. Consectetur rerum, debitis at iure sed itaque unde?",
                 "note": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quis, possimus, cum aut dolore, illo qui eius modi corrupti earum dolorem facere nisi ut. ",
-                "vote": "",
-                "location": "https:\/\/www.google.it\/maps\/place\/Therma+Beach\/@36.8445236,27.3060689,15z\/data=!3m1!4b1!4m6!3m5!1s0x14be057e44475f43:0x328992a1ffd664dd!8m2!3d36.8445246!4d27.3163686!16s%2Fg%2F11b5wl2skr?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
-                "visited": false
+                "vote": "4",
+                "location": "https:\/\/www.google.it\/maps\/place\/Therma+Beach\/@36.8445177,27.2774,6019m\/data=!3m2!1e3!4b1!4m6!3m5!1s0x14be057e44475f43:0x328992a1ffd664dd!8m2!3d36.8445246!4d27.3163686!16s%2Fg%2F11b5wl2skr?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+                "visited": true
             },
             {
                 "day": "Giorno 2",
@@ -52,5 +52,29 @@
                 "visited": true
             }
         ]
+    },
+    {
+        "title": "Italia",
+        "place": "Sardegna",
+        "date": "31\/08\/2022 - 07\/09\/2022",
+        "cover_image": "https:\/\/dvrjj4igcfeco.cloudfront.net\/eyJidWNrZXQiOiJrb2wtaW1hZ2VzLXByb2QiLCJrZXkiOiJwaWN0dXJlcy9hZ2kvYWdpLzIwMjEvMDYvMDEvMTQyNjIxMjY1LTYxOWIyMWNhLTNiOTItNDYzOS05ZDA3LTIzNTNhYTc1Yzk1ZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE1MDAsImhlaWdodCI6MTA2MCwiZml0IjoiY292ZXIifX19"
+    },
+    {
+        "title": "Belgio",
+        "place": "Bruxelles",
+        "date": "31\/08\/2022 - 07\/09\/2022",
+        "cover_image": "https:\/\/www.10cose.it\/wp-content\/uploads\/2015\/09\/bruxelles-696x650.jpg"
+    },
+    {
+        "title": "Paesi Bassi",
+        "place": "Amsterdam",
+        "date": "31\/08\/2022 - 07\/09\/2022",
+        "cover_image": "https:\/\/dyn.eu.mktgcdn.com\/f\/100004519\/guQErsmo5AB7xau6ZVNodG9SlUHE9pZhcxKTSRWkU6k.jpg\/width=1280,height=853"
+    },
+    {
+        "title": "Egitto",
+        "place": "Marsa Alam",
+        "date": "31\/08\/2022 - 07\/09\/2022",
+        "cover_image": "https:\/\/www.egittodasogno.it\/wp-content\/uploads\/elementor\/thumbs\/berenice-1-pcwhal6zyceaggqlij21cae7kcckt0vjnljge39a5c.jpg"
     }
 ]

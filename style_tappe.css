@@ -179,10 +179,10 @@ a {
   transform: scale(.96);
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1500px) {
 
   .description {
-    width: 600px;
+    width: 700px;
     line-height: 30px;
     margin-bottom: 50px;
   }
